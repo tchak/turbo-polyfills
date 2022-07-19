@@ -39,27 +39,7 @@
     "prepare": "pnpm build",
     "release": "release-it"
   },
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "browsers": [
-              "defaults",
-              "Chrome >= 50",
-              "Edge >= 14",
-              "Firefox >= 50",
-              "Opera >= 40",
-              "Safari >= 8",
-              "iOS >= 8",
-              "IE >= 11"
-            ]
-          }
-        }
-      ]
-    ]
-  },
+  "browserslist": "Chrome >= 50, Edge >= 14, Firefox >= 50, Opera >= 40, Safari >= 8, iOS >= 8, IE >= 11",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
