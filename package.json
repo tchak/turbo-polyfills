@@ -4,6 +4,11 @@
   "main": "dist/index.js",
   "description": "polyfills for @hotwired/turbo on IE11",
   "license": "MIT",
+  "files": ["dist"],
+  "keywords": ["turbo"],
+  "contributors": [
+    "Paul Chavard <github@paul.chavard.net>"
+  ],
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
