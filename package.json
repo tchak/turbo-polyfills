@@ -1,0 +1,66 @@
+{
+  "name": "turbo-polyfills",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "description": "polyfills for @hotwired/turbo on IE11",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@webcomponents/custom-elements": "^1.5.0",
+    "@webcomponents/template": "^1.5.0",
+    "del-cli": "^4.0.1",
+    "formdata-polyfill": "^4.0.10",
+    "release-it": "^15.1.2",
+    "rollup": "^2.77.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "packageManager": "pnpm@6.32.24",
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "clean": "del dist",
+    "prepare": "pnpm build",
+    "release": "release-it"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": [
+              "defaults",
+              "Chrome >= 50",
+              "Edge >= 14",
+              "Firefox >= 50",
+              "Opera >= 40",
+              "Safari >= 8",
+              "iOS >= 8",
+              "IE >= 11"
+            ]
+          }
+        }
+      ]
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "release-it": {
+    "npm": {
+      "skipChecks": true
+    },
+    "github": {
+      "release": false
+    }
+  }
+}
