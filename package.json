@@ -14,16 +14,16 @@
     "Paul Chavard <github@paul.chavard.net>"
   ],
   "devDependencies": {
-    "@babel/core": "^7.18.9",
-    "@babel/preset-env": "^7.18.9",
-    "@rollup/plugin-babel": "^5.3.1",
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "@webcomponents/custom-elements": "^1.5.0",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@rollup/plugin-babel": "^6.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@webcomponents/custom-elements": "^1.5.1",
     "@webcomponents/template": "^1.5.0",
-    "del-cli": "^4.0.1",
+    "del-cli": "^5.0.0",
     "formdata-polyfill": "^4.0.10",
-    "release-it": "^15.1.2",
-    "rollup": "^2.77.0"
+    "release-it": "^15.5.0",
+    "rollup": "^3.2.3"
   },
   "engines": {
     "node": ">=16"
@@ -34,7 +34,7 @@
     "printWidth": 100
   },
   "scripts": {
-    "build": "rollup -c rollup.config.js",
+    "build": "rollup -c rollup.config.mjs",
     "clean": "del dist",
     "prepare": "pnpm build",
     "release": "release-it"
