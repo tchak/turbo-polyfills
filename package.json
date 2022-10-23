@@ -1,6 +1,6 @@
 {
   "name": "turbo-polyfills",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "dist/index.js",
   "description": "polyfills for @hotwired/turbo on IE11",
   "license": "MIT",
