@@ -14,16 +14,17 @@
     "Paul Chavard <github@paul.chavard.net>"
   ],
   "devDependencies": {
-    "@babel/core": "^7.21.0",
-    "@babel/preset-env": "^7.20.2",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
     "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@webcomponents/custom-elements": "^1.5.1",
-    "@webcomponents/template": "^1.5.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@webcomponents/custom-elements": "^1.6.0",
+    "@webcomponents/template": "^1.5.1",
     "del-cli": "^5.0.0",
     "formdata-polyfill": "^4.0.10",
-    "release-it": "^15.6.0",
-    "rollup": "^3.17.3"
+    "get-root-node-polyfill": "^1.0.0",
+    "release-it": "^15.10.1",
+    "rollup": "^3.20.2"
   },
   "engines": {
     "node": ">=16"
