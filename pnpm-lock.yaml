@@ -9,7 +9,6 @@ specifiers:
   '@webcomponents/template': ^1.5.1
   del-cli: ^5.0.0
   formdata-polyfill: ^4.0.10
-  get-root-node-polyfill: ^1.0.0
   release-it: ^15.10.1
   rollup: ^3.20.2
 
@@ -22,7 +21,6 @@ devDependencies:
   '@webcomponents/template': 1.5.1
   del-cli: 5.0.0
   formdata-polyfill: 4.0.10
-  get-root-node-polyfill: 1.0.0
   release-it: 15.10.1
   rollup: 3.20.2
 
@@ -2406,10 +2404,6 @@ packages:
       function-bind: 1.1.1
       has: 1.0.3
       has-symbols: 1.0.3
-    dev: true
-
-  /get-root-node-polyfill/1.0.0:
-    resolution: {integrity: sha512-AzucsG1DdepagLF8tkxfjUqn3cCQ63MgH/tBWwPSy0BIDt8iLFZYDwnTxA08d+zdgL8l2dkPdZDe+Qkd+RMl9Q==}
     dev: true
 
   /get-stream/6.0.1:
