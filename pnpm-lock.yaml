@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   '@babel/core': ^7.21.4
@@ -15,7 +15,7 @@ specifiers:
 devDependencies:
   '@babel/core': 7.21.4
   '@babel/preset-env': 7.21.4_@babel+core@7.21.4
-  '@rollup/plugin-babel': 6.0.3_wlieuynzbak3666wdkk5ilofqu
+  '@rollup/plugin-babel': 6.0.3_@babel+core@7.21.4+rollup@3.20.2
   '@rollup/plugin-node-resolve': 15.0.2_rollup@3.20.2
   '@webcomponents/custom-elements': 1.6.0
   '@webcomponents/template': 1.5.1
@@ -1403,7 +1403,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-babel/6.0.3_wlieuynzbak3666wdkk5ilofqu:
+  /@rollup/plugin-babel/6.0.3_@babel+core@7.21.4+rollup@3.20.2:
     resolution: {integrity: sha512-fKImZKppa1A/gX73eg4JGo+8kQr/q1HBQaCGKECZ0v4YBBv3lFqi14+7xyApECzvkLTHCifx+7ntcrvtBIRcpg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -3426,7 +3426,7 @@ packages:
       levn: 0.3.0
       prelude-ls: 1.1.2
       type-check: 0.3.2
-      word-wrap: 1.2.3
+      word-wrap: 1.2.4
     dev: true
 
   /ora/6.3.0:
@@ -4419,8 +4419,8 @@ packages:
       execa: 5.1.1
     dev: true
 
-  /word-wrap/1.2.3:
-    resolution: {integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==}
+  /word-wrap/1.2.4:
+    resolution: {integrity: sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
